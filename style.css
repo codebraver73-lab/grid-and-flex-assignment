@@ -1,0 +1,35 @@
+#container{
+    display:flex;
+    justify-content: space-around;
+    width:100vh;
+    height:100vh;
+    border:white;
+    gap:10px;
+}
+
+#gridcontainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap:10px;
+    border:none;
+    background-color: beige;
+    height:210px;
+    width:200px;
+}
+
+#gridcontainer div{
+   width:50px;
+   height:100px;
+   background-color: skyblue;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+*{
+  text-align:center;
+  border-radius: 10px;
+}
